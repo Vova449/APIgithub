@@ -81,3 +81,33 @@ a {
 .text-green {
     color: green;
 }
+
+#load {
+    width: 100px;
+    height: 100px;
+    background: #91a8cf;
+    animation-name: loadPage;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loadPage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#decor {
+    background: #91a8cf;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ .d-none {
+    display: none;
+}
